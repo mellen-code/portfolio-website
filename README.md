@@ -8,12 +8,13 @@ My portfolio website, containing links to my projects and ways to get in contact
 
 ## Tech used: ![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5)![CSS BADGE](https://img.shields.io/static/v1?label=|&message=CSS3&color=285f65&style=plastic&logo=css3)![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript)
 
+My learning goals were focused on making an simple UI and a smooth UX, while using accessibility best practices.
 
 ## Optimizations
 Expand Projects section to include developer notes for each project.
 
 ## Lessons Learned
-Utilizing typography best practices, as well as color contrast testing to ensure acessibility. Also enjoyed exploring Lighthouse to improve page load speed.
+In an effort to provide a smooth user experience, dove into utilizing typography best practices, contrast & space, as well as color contrast testing to ensure accessibility. Also enjoyed exploring Lighthouse to improve page load speed.
 
 
 ## More Projects
