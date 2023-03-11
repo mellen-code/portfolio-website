@@ -1742,7 +1742,7 @@ input, select, textarea {
 
 
       #portfolio > div > div > div > article > header > a {
-        width: 50%;
+        /* width: 50%; */
         margin: auto;
       }
 
@@ -1826,7 +1826,8 @@ input, select, textarea {
 				}
 
 				.row > .col-4-mobile {
-					width: 33.33333%;
+					/* width: 33.33333%; */
+					width: 50%;
 				}
 
 				.row > .off-4-mobile {
@@ -1949,8 +1950,9 @@ input, select, textarea {
 						}
 
 				.row {
-					margin-top: -20px;
-					margin-left: -20px;
+					/* margin-top: -20px;
+					margin-left: -20px; */
+					margin: auto !important;
 				}
 
 					.row > * {
