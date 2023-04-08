@@ -9,6 +9,8 @@
 
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
   <link rel="stylesheet" href="css/main.css" defer/>
 </head>
 
@@ -115,100 +117,47 @@
           <h2>Latest projects</h2>
         </header>
 
-
-
         <div class="row">
-          
-          <div class="col-4 col-4-mobile">
+
+          <div class="image_wrapper col-4 col-4-mobile">
+            
+              <img src="../images/actressModelSite-small.png" alt="picture of project">
+              <h3 class="project_title">ConfiDance</h3>
+                <div class="overlay overlay_4">
+                  <div class="overlay_border">
+                    <i id="button1" class="fa fa-light fa-clipboard hover-color"></i>
+                      <div id="popUp1" class="popup">
+                        <div class="popup-content">
+                          <p>This is a description of this awesome project. I so got this.</p>
+                          <button id="closePopUp1">Close</button>
+                        </div>
+                      </div>
+
+                    <a href="https://cocosrollerdisco.netlify.app/"><i class="fa fa-solid fa-link fa-rotate-90 hover-color"></i></a>
+
+                    <a href="https://cocosrollerdisco.netlify.app/"><i class="fa fa-brands fa-github hover-color"></i></a>
+
+                    <h5>MongoDB | Express.js | Node.js</h5>
+
+                  </div>  
+                </div>               
+          </div>
+             
+
+          <!-- <div class="col-4 col-4-mobile">
             <article class="item">
               <header>
               <a href="https://cocosrollerdisco.netlify.app" target="_blank" class="image fit"><img src="../images/actressModelSite-small.png" alt="picture of roller disco website" /></a>
               
-                <!-- <h3>A fully responsive and engaging site for a local roller disco venue.</h3> -->
-              </header>
+                <h3>A fully responsive and engaging site for a local roller disco venue.</h3> -->
+              <!-- </header>
 
               <div class="col-12">
                 <a href="https://cocosrollerdisco.netlify.app" target="_blank" class="viewSite">View</a>
               </div>
             </article>
           
-          </div>
-          
-          <div class="col-4 col-4-mobile">
-            <article class="item">
-              <header>
-              <a href="https://ariadne-actress-model.netlify.app" target="_blank" class="image fit"><img src="../images/actressModelSite-small.png" alt="picture of actress website" /></a>
-              
-                <!-- <h3>Elegant and easy&#8211;to&#8211;view website showcasing a professional artist.</h3> -->
-              </header>
-
-              <div class="col-12">
-
-                <a href="https://ariadne-actress-model.netlify.app" target="_blank" class="viewSite">View</a>
-              </div>
-            </article>
-           
-          </div>
-
-          <div class="col-4 col-4-mobile">
-            <article class="item">
-              <header>
-              <a href="https://backyardwinery.netlify.app/" target="_blank" class="image fit"><img src="../images/actressModelSite-small.png" alt="picture of winery website" /></a>
-              
-                <!-- <h3>An accessible site reflecting the beauty of a family-owned winery.</h3> -->
-              </header>
-
-              <div class="col-12">
-                <a href="https://backyardwinery.netlify.app/" target="_blank" class="viewSite">View</a>
-              </div>
-            </article>
-           
-          </div>
-
-          <div class="col-4 col-4-mobile">
-            <article class="item">
-              <header>
-              <a href="https://cocosrollerdisco.netlify.app" target="_blank" class="image fit"><img src="../images/actressModelSite-small.png" alt="picture of roller disco website" /></a>
-              
-                <!-- <h3>A fully responsive and engaging site for a local roller disco venue.</h3> -->
-              </header>
-
-              <div class="col-12">
-                <a href="https://cocosrollerdisco.netlify.app" target="_blank" class="viewSite">View</a>
-              </div>
-            </article>
-          
-          </div>
-
-          <div class="col-4 col-4-mobile">
-            <article class="item">
-              <header>
-              <a href="https://cocosrollerdisco.netlify.app" target="_blank" class="image fit"><img src="../images/actressModelSite-small.png" alt="picture of roller disco website" /></a>
-              
-                <!-- <h3>A fully responsive and engaging site for a local roller disco venue.</h3> -->
-              </header>
-
-              <div class="col-12">
-                <a href="https://cocosrollerdisco.netlify.app" target="_blank" class="viewSite">View</a>
-              </div>
-            </article>
-          
-          </div>
-
-          <div class="col-4 col-4-mobile">
-            <article class="item">
-              <header>
-              <a href="https://cocosrollerdisco.netlify.app" target="_blank" class="image fit"><img src="../images/actressModelSite-small.png" alt="picture of roller disco website" /></a>
-              
-                <!-- <h3>A fully responsive and engaging site for a local roller disco venue.</h3> -->
-              </header>
-
-              <div class="col-12">
-                <a href="https://cocosrollerdisco.netlify.app" target="_blank" class="viewSite">View</a>
-              </div>
-            </article>
-          
-          </div>
+          </div> --> 
 
           
         </div>
@@ -297,7 +246,7 @@
         </div>
       </div>
 
-      <a href="Marie-Smith-resume.pdf" download> <button class="btn"><i class="fa fa-download"></i> &nbsp;Resume</button></a>
+      <a href="../Marie-Smith-resume.pdf" download> <button class="btn"><i class="fa fa-download"></i> &nbsp;Resume</button></a>
      
     </section>
 
@@ -356,13 +305,21 @@
   </div>
 
   <!-- Scripts -->
-  <script src="assets/js/jquery.min.js" defer></script>
+  <!-- <script src="assets/js/jquery.min.js" defer></script>
   <script src="assets/js/jquery.scrolly.min.js" defer></script>
   <script src="assets/js/jquery.scrollex.min.js" defer></script>
   <script src="assets/js/browser.min.js" defer></script>
   <script src="assets/js/breakpoints.min.js" defer></script>
   <script src="assets/js/util.js" defer></script>
-  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/main.js" defer></script> -->
+
+  <script src="js/jquery.min.js" defer></script>
+  <script src="js/jquery.scrolly.min.js" defer></script>
+  <script src="js/jquery.scrollex.min.js" defer></script>
+  <script src="js/browser.min.js" defer></script>
+  <script src="js/breakpoints.min.js" defer></script>
+  <script src="js/util.js" defer></script>
+  <script src="js/main.js" defer></script>
 
 </body>
 

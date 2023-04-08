@@ -4,7 +4,18 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
 (function($) {
+
+	document.getElementById('button1').addEventListener('click', function() {
+		popUp1.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp1').addEventListener('click', function() {
+		popUp1.classList.remove('show');
+	})
 
 	var	$window = $(window),
 		$body = $('body'),
