@@ -9,12 +9,16 @@
 (function($) {
 
 	document.getElementById('button1').addEventListener('click', function() {
-		popUp1.classList.add('show');
+		console.log('got this');
+		let popup = document.querySelector('.popup')
+		popup.classList.add('show');
 		
 	})
 
 	document.getElementById('closePopUp1').addEventListener('click', function() {
-		popUp1.classList.remove('show');
+		console.log('yuppers')
+		let popup = document.querySelector('.popup')
+		popup.classList.remove('show');
 	})
 
 	var	$window = $(window),

@@ -456,11 +456,12 @@ input, select, textarea {
 
 /* Row */
 
-	.row {
-		display: flex;
-		flex-wrap: wrap;
+	.grid-row {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
 		box-sizing: border-box;
-		align-items: stretch;
+		width: 100%;
+		grid-gap: 10px;
 	}
 
 		.row > * {
@@ -523,9 +524,9 @@ input, select, textarea {
 			margin-left: 25%;
 		}
 
-		.row > .col-4 {
+		/* .row > .col-4 {
 			width: 33.33333%;
-		}
+		} */
 
 		.row > .off-4 {
 			margin-left: 33.33333%;
@@ -2313,7 +2314,7 @@ input, select, textarea {
 	.image_wrapper {
 		position: relative;
 		padding: 0 !important;
-		width: 67.6% !important;
+		width: fit-content !important;
 	}
 
 	.project_title {
@@ -2326,8 +2327,11 @@ input, select, textarea {
 		
 	}
 
-	.project_title a {
-		border-bottom: none;
+	.project_icon {
+		position: absolute;
+		left: 40%;
+		top: 55%;
+		font-weight: bold;
 	}
 
 	.project_tools {
@@ -2370,10 +2374,11 @@ input, select, textarea {
 
 	i.hover-color:hover {
 		color: red;
+		cursor: pointer;
 	}
 
-	i.hover-color {
-		margin-top: 50%;
+	a {
+		border-bottom: none;
 	}
 
 /* Project Description pop-ups */
