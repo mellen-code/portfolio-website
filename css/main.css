@@ -15,6 +15,8 @@ white-ish: #FAF6EC, #EAEAEA
 
 cream-ish: #DAD5C6
 
+turquoise: #49FCD4
+
 dark: #101211, #474743, #32322D */
 
 /*
@@ -326,6 +328,10 @@ input, select, textarea {
 /* 			border-bottom-color: rgba(255, 255, 255, 0); */
 		}
 
+		.hover-color:hover {
+			color: #49FCD4 !important;
+		}
+
 	sub {
 		position: relative;
 		top: 0.5em;
@@ -412,6 +418,7 @@ input, select, textarea {
     color: #cfcfcf;
   }
 
+  		
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
       
@@ -1734,6 +1741,48 @@ input, select, textarea {
 
 		}
 
+		@media screen and (min-width: 650px) and (max-width: 1235px) {
+			.grid-row {
+				grid-template-columns: 1fr 1fr !important;
+				/* grid-column-gap: 2em;
+				margin-top: 1.0em; */
+			  }
+			.image_wrapper {
+				margin: auto;
+			}
+		}
+
+		@media screen and (min-width: 331px) and (max-width: 649px) {
+			.grid-row {
+				display: block;
+			  }
+			  .image_wrapper {
+				margin: auto;
+			}
+		}
+
+		@media screen and (min-width: 311px) and (max-width: 330px) {
+			.grid-row {
+				margin-left: -1%;
+				display: block;
+			  }
+		}
+
+		@media screen and (min-width: 285px) and (max-width: 310px) {
+			.grid-row {
+				margin-left: -3%;
+				display: block;
+			  }
+		}
+
+		@media screen and (max-width: 284px) {
+			.grid-row {
+				margin-left: -8%;
+				display: block;
+			  }
+		}
+
+
 		@media screen and (max-width: 736px) {
 
       #portfolio > div > div > div > article > header {
@@ -2302,7 +2351,8 @@ input, select, textarea {
 		}
 
     #portfolio h3 {
-      color: #000000;
+      color: #ffffff;
+	  line-height: 80%;
     }
 
 /* Item */
@@ -2320,7 +2370,7 @@ input, select, textarea {
 	.project_title {
 		position: absolute;
 		left: 50%;
-		top: 40%;
+		top: 35%;
 		transform: translate(-50%, 0);
 		font-weight: bold;
 		font-size: 175%;
@@ -2348,11 +2398,11 @@ input, select, textarea {
 		justify-content: center;
 		pointer-events: none;
 	}
-
+ 
 	.overlay_4 {
 		left: 0;
 		bottom: 100%;
-		height: 0;
+		/* height: 0; --> overlay scrolls top-bottom on hover*/
 		width: 100%;
 		overflow: hidden;
 		backdrop-filter: brightness(80%);
@@ -2361,19 +2411,18 @@ input, select, textarea {
 	}
 
 	.overlay_border {
-		width: 80%;
-		height: 80%;
-		border: 3px solid black;
+		width: 90%;
+		height: 90%;
+		border: 3px solid white;
 	}
 
 	.image_wrapper:hover .overlay_4 {
-		bottom: 0;
-		height: 98%;
+		/* bottom: 0; --> overlay scrolls bottom-top after hover */
+		height: 96%;
 		
 	}
 
 	i.hover-color:hover {
-		color: red;
 		cursor: pointer;
 	}
 
@@ -2400,12 +2449,22 @@ input, select, textarea {
             margin: 10% auto;
             padding: 20px;
             border: 1px solid #888888;
-            width: 30%;
-            font-weight: bolder;
+            width: 70%;
+            font-weight: 500;
+			line-height: normal;
+    		font-size: medium
+}
+
+.popup-words {
+	margin-bottom: 1em;
 }
 
 .show {
 	display: block;
+}
+
+#closePopUp1 {
+	pointer-events: all;
 }
 
 
@@ -2686,7 +2745,7 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background-color: #B6A980;
+				background-color: #FAF6EC;
 			}
 
 			#main > section.three {

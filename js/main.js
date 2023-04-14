@@ -16,10 +16,12 @@
 	})
 
 	document.getElementById('closePopUp1').addEventListener('click', function() {
-		console.log('yuppers')
+		console.log('yuppers');
 		let popup = document.querySelector('.popup')
 		popup.classList.remove('show');
 	})
+
+	
 
 	var	$window = $(window),
 		$body = $('body'),
