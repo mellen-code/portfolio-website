@@ -1,24 +1,26 @@
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-
 
 (function($) {
 
 	document.getElementById('button1').addEventListener('click', function() {
-		console.log('got this');
 		let popup = document.querySelector('.popup')
 		popup.classList.add('show');
 		
 	})
 
 	document.getElementById('closePopUp1').addEventListener('click', function() {
-		console.log('yuppers');
 		let popup = document.querySelector('.popup')
 		popup.classList.remove('show');
+	})
+
+	document.getElementById('button2').addEventListener('click', function() {
+		let popup2 = document.querySelector('.popup2')
+		popup2.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp2').addEventListener('click', function() {
+		let popup2 = document.querySelector('.popup2')
+		popup2.classList.remove('show');
 	})
 
 	

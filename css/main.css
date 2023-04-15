@@ -264,7 +264,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
-    margin-bottom: 2.5rem;
+    	margin-bottom: 0.4em;
 	}
 
 		h2.alt {
@@ -2350,10 +2350,14 @@ input, select, textarea {
 			background-color: #7eaeac;
 		}
 
-    #portfolio h3 {
-      color: #ffffff;
-	  line-height: 80%;
+    .port-description {
+      color: #DAD5C6;
+	  margin-bottom: 2em;
     }
+
+	.major > h2 {
+		color: #DAD5C6;
+	}
 
 /* Item */
 
@@ -2365,23 +2369,32 @@ input, select, textarea {
 		position: relative;
 		padding: 0 !important;
 		width: fit-content !important;
+		background-color: black;
+		height: 95.75%;
+	}
+
+	.image_wrapper img {
+		opacity: 0.5;
 	}
 
 	.project_title {
 		position: absolute;
 		left: 50%;
-		top: 35%;
+		bottom: 55%;
 		transform: translate(-50%, 0);
 		font-weight: bold;
 		font-size: 175%;
+		color: #ffffff;
+	  	line-height: 90%;
 		
 	}
 
 	.project_icon {
 		position: absolute;
-		left: 40%;
-		top: 55%;
+		left: 39%;
+		top: 50%;
 		font-weight: bold;
+		color: #ffffff;
 	}
 
 	.project_tools {
@@ -2418,7 +2431,7 @@ input, select, textarea {
 
 	.image_wrapper:hover .overlay_4 {
 		/* bottom: 0; --> overlay scrolls bottom-top after hover */
-		height: 96%;
+		height: 100%;
 		
 	}
 
@@ -2432,7 +2445,7 @@ input, select, textarea {
 
 /* Project Description pop-ups */
 
-.popup {
+.popupAll {
 	position: fixed;
             z-index: 1;
             left: 0;
@@ -2446,7 +2459,7 @@ input, select, textarea {
 
 .popup-content {
 	background-color: white;
-            margin: 10% auto;
+            margin: 5% auto;
             padding: 20px;
             border: 1px solid #888888;
             width: 70%;
@@ -2463,8 +2476,16 @@ input, select, textarea {
 	display: block;
 }
 
-#closePopUp1 {
+#closePopUp1, #closePopUp2 {
 	pointer-events: all;
+}
+
+.techs {
+	color: white;
+    position: absolute;
+    top: 80%;
+	font-size: 0.8em;
+	left: 15%;
 }
 
 
@@ -2745,7 +2766,8 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background-color: #FAF6EC;
+				/* background-color: #FAF6EC; */
+				background-color: #51281D;
 			}
 
 			#main > section.three {
