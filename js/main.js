@@ -23,6 +23,50 @@
 		popup2.classList.remove('show');
 	})
 
+	document.getElementById('button3').addEventListener('click', function() {
+		let popup3 = document.querySelector('.popup3')
+		popup3.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp3').addEventListener('click', function() {
+		let popup3 = document.querySelector('.popup3')
+		popup3.classList.remove('show');
+	})
+
+	document.getElementById('button4').addEventListener('click', function() {
+		let popup4 = document.querySelector('.popup4')
+		popup4.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp4').addEventListener('click', function() {
+		let popup4 = document.querySelector('.popup4')
+		popup4.classList.remove('show');
+	})
+
+	document.getElementById('button5').addEventListener('click', function() {
+		let popup5 = document.querySelector('.popup5')
+		popup5.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp5').addEventListener('click', function() {
+		let popup5 = document.querySelector('.popup5')
+		popup5.classList.remove('show');
+	})
+
+	document.getElementById('button6').addEventListener('click', function() {
+		let popup6 = document.querySelector('.popup6')
+		popup6.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp6').addEventListener('click', function() {
+		let popup6 = document.querySelector('.popup6')
+		popup6.classList.remove('show');
+	})
+
 	
 
 	var	$window = $(window),

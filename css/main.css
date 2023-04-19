@@ -1,5 +1,6 @@
-/* @import url("fontawesome-all.min.css"); */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 
 /* Color scheme:
 army green: #756F5F
@@ -13,7 +14,7 @@ tan-ish: #B6A980,
 
 white-ish: #FAF6EC, #EAEAEA
 
-cream-ish: #DAD5C6
+cream-ish: #DAD5C6, #e1d1a3
 
 turquoise: #49FCD4
 
@@ -2176,6 +2177,10 @@ input, select, textarea {
 			border: 0;
 		}
 
+		ul.icons li a:hover {
+			color: #756F5F;
+		}
+
 /* Form */
 
   #emailForm {
@@ -2328,7 +2333,7 @@ input, select, textarea {
   }
 
   #emailForm > div > div > a:hover {
-  background-color: #32322D;
+  background-color: #51281D;
   }
 
 
@@ -2418,7 +2423,7 @@ input, select, textarea {
 		/* height: 0; --> overlay scrolls top-bottom on hover*/
 		width: 100%;
 		overflow: hidden;
-		backdrop-filter: brightness(80%);
+		backdrop-filter: brightness(72%);
 		transition: all .3s ease-in-out;
 		
 	}
@@ -2476,7 +2481,7 @@ input, select, textarea {
 	display: block;
 }
 
-#closePopUp1, #closePopUp2 {
+#closePopUp1, #closePopUp2, #closePopUp3, #closePopUp4, #closePopUp5, #closePopUp6 {
 	pointer-events: all;
 }
 
@@ -2784,22 +2789,31 @@ input, select, textarea {
 
 			#main > section.four {
 /* 				background-color: #e8edec; */
-        background-color: #51281D;
+        /* background-color: #51281D; */
 /*         background-color: #756F5F; */
-        color: #FAF6EC; 
+			/* background-color: #FAF6EC;   */
+			/* background-color: #EAEAEA;       */
+			background-color: #e1d1a3;
+			color: #101211; 
+			font-weight: 400;
 			}
 
       #contact h2 {
-        color: #FAF6EC;
+        color: #101211;
+		font-weight: 400;
       }
 
       #contact p strong {
-        color: #B6A980;
+        color: #51281D;
+		font-weight: 400;
+		text-decoration: underline;
       }
 
       #contact a {
         border-bottom: none;
       }
+
+
 
 /* Wide */
 
@@ -2876,6 +2890,7 @@ input, select, textarea {
 			ul.icons li a {
 				width: 1.75em;
 			}
+
 
 		/* Item */
 
@@ -3060,11 +3075,11 @@ input, select, textarea {
 					}
 
 					#headerToggle .toggle:before {
-						text-decoration: none;
 						content: '\f0c9';
+						text-decoration: none;
 						color: #fff;
 						font-size: 18px;
-						background: rgba(128, 136, 144, 0.5);
+						background: rgba(128, 136, 144, 0.6);
 						border-radius: 0.35em;
 						text-align: center;
 						position: absolute;
@@ -3168,6 +3183,10 @@ input, select, textarea {
 				#main section.cover header {
 					padding: 0 1em;
 				}
+
+			.techs {
+				left: 20%;
+			}
 
 		/* Footer */
 
