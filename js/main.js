@@ -67,6 +67,38 @@
 		popup6.classList.remove('show');
 	})
 
+	document.getElementById('button7').addEventListener('click', function() {
+		let popup7 = document.querySelector('.popup7')
+		popup7.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp7').addEventListener('click', function() {
+		let popup7 = document.querySelector('.popup7')
+		popup7.classList.remove('show');
+	})
+
+	document.getElementById('button8').addEventListener('click', function() {
+		let popup8 = document.querySelector('.popup8')
+		popup8.classList.add('show');
+	})
+
+	document.getElementById('closePopUp8').addEventListener('click', function() {
+		let popup8 = document.querySelector('.popup8')
+		popup8.classList.remove('show');
+	})
+
+	document.getElementById('button9').addEventListener('click', function() {
+		let popup9 = document.querySelector('.popup9')
+		popup9.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp9').addEventListener('click', function() {
+		let popup9 = document.querySelector('.popup9')
+		popup9.classList.remove('show');
+	})
+
 	
 
 	var	$window = $(window),
