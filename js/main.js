@@ -1,10 +1,105 @@
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 (function($) {
+
+	document.getElementById('button1').addEventListener('click', function() {
+		let popup = document.querySelector('.popup')
+		popup.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp1').addEventListener('click', function() {
+		let popup = document.querySelector('.popup')
+		popup.classList.remove('show');
+	})
+
+	document.getElementById('button2').addEventListener('click', function() {
+		let popup2 = document.querySelector('.popup2')
+		popup2.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp2').addEventListener('click', function() {
+		let popup2 = document.querySelector('.popup2')
+		popup2.classList.remove('show');
+	})
+
+	document.getElementById('button3').addEventListener('click', function() {
+		let popup3 = document.querySelector('.popup3')
+		popup3.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp3').addEventListener('click', function() {
+		let popup3 = document.querySelector('.popup3')
+		popup3.classList.remove('show');
+	})
+
+	document.getElementById('button4').addEventListener('click', function() {
+		let popup4 = document.querySelector('.popup4')
+		popup4.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp4').addEventListener('click', function() {
+		let popup4 = document.querySelector('.popup4')
+		popup4.classList.remove('show');
+	})
+
+	document.getElementById('button5').addEventListener('click', function() {
+		let popup5 = document.querySelector('.popup5')
+		popup5.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp5').addEventListener('click', function() {
+		let popup5 = document.querySelector('.popup5')
+		popup5.classList.remove('show');
+	})
+
+	document.getElementById('button6').addEventListener('click', function() {
+		let popup6 = document.querySelector('.popup6')
+		popup6.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp6').addEventListener('click', function() {
+		let popup6 = document.querySelector('.popup6')
+		popup6.classList.remove('show');
+	})
+
+	document.getElementById('button7').addEventListener('click', function() {
+		let popup7 = document.querySelector('.popup7')
+		popup7.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp7').addEventListener('click', function() {
+		let popup7 = document.querySelector('.popup7')
+		popup7.classList.remove('show');
+	})
+
+	document.getElementById('button8').addEventListener('click', function() {
+		let popup8 = document.querySelector('.popup8')
+		popup8.classList.add('show');
+	})
+
+	document.getElementById('closePopUp8').addEventListener('click', function() {
+		let popup8 = document.querySelector('.popup8')
+		popup8.classList.remove('show');
+	})
+
+	document.getElementById('button9').addEventListener('click', function() {
+		let popup9 = document.querySelector('.popup9')
+		popup9.classList.add('show');
+		
+	})
+
+	document.getElementById('closePopUp9').addEventListener('click', function() {
+		let popup9 = document.querySelector('.popup9')
+		popup9.classList.remove('show');
+	})
+
+	
 
 	var	$window = $(window),
 		$body = $('body'),
