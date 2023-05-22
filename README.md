@@ -1,6 +1,6 @@
 # My portfolio website: <a href="https://mariesmith.me/" target="_blank">Visit Here</a>
 <a href="https://mariesmith.me/" target="_blank">
-<img src="https://media.giphy.com/media/BXLT2FUtBYmKDGl0nd/giphy.gif" width="80%" margin="auto" alt="link to website"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2RkY2ZjYWM5ZTc4NDAwMzQwOTJhNTQ4ZDU5MzcyMjgyYjE3ODNiMiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/eukp4n5vbKaQ1V2hNx/giphy.gif" width="80%" margin="auto" alt="link to website"/>
 </a>
 
 My portfolio website, containing links to my projects and ways to get in contact with me. Near-perfect Lighthouse score.
